@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Buttonscontainer.module.css";
-export default function Buttonscontainer() {
+export default function Buttonscontainer({ onButtonClick }) {
   const buttonNames = [
     "C",
     "1",
@@ -23,7 +23,11 @@ export default function Buttonscontainer() {
   return (
     <div className={styles.buttonscontainer}>
       {buttonNames.map((buttonName) => (
-        <button key={buttonName} className={styles.button}>
+        <button
+          key={buttonName}
+          className={styles.button}
+          onClick={() => onButtonClick(buttonName)}
+        >
           {buttonName}
         </button>
       ))}
