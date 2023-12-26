@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 export default function AddTodo({ onNewItem }) {
-  const [todoName, settodoName] = useState();
-  const [dueDate, setdueDate] = useState();
+  const [todoName, settodoName] = useState("");
+  const [dueDate, setdueDate] = useState("");
 
   const handleNameChange = (event) => {
     settodoName(event.target.value);
