@@ -4,7 +4,7 @@ import TodoItem from "./TodoItem";
 function TodoItems({ todoItems }) {
   return (
     <div>
-      <div className="items-container">
+      <div classNameName="items-container">
         {todoItems.map((item) => (
           <TodoItem todoName={item.name} todoDate={item.duedate} />
         ))}

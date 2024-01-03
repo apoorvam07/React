@@ -2,12 +2,12 @@ import React from "react";
 
 function TodoItem({ todoName, todoDate }) {
   return (
-    <div className="container">
-      <div className="row b-row">
-        <div className="col-6">{todoName}</div>
-        <div className="col-4">{todoDate}</div>
-        <div className="col-2">
-          <button type="button" className="btn btn-danger deletebutton">
+    <div classNameName="container">
+      <div classNameName="row b-row">
+        <div classNameName="col-6">{todoName}</div>
+        <div classNameName="col-4">{todoDate}</div>
+        <div classNameName="col-2">
+          <button type="button" classNameName="btn btn-danger deletebutton">
             Delete
           </button>
         </div>

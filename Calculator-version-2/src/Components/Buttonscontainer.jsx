@@ -21,11 +21,11 @@ export default function Buttonscontainer({ onButtonClick }) {
     ".",
   ];
   return (
-    <div className={styles.buttonscontainer}>
+    <div classNameName={styles.buttonscontainer}>
       {buttonNames.map((buttonName) => (
         <button
           key={buttonName}
-          className={styles.button}
+          classNameName={styles.button}
           onClick={() => onButtonClick(buttonName)}
         >
           {buttonName}

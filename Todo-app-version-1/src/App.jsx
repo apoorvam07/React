@@ -7,11 +7,11 @@ import "./App.css";
 function App() {
   return (
     <>
-      <center className="todo-container">
+      <center classNameName="todo-container">
         <AppName />
         <AddTodo />
 
-        <div className="items-container">
+        <div classNameName="items-container">
           <TodoItem1 />
           <TodoItem1 />
           <TodoItem1 />

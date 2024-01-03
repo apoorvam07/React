@@ -19,9 +19,9 @@ export default function AddTodo({ onNewItem }) {
   };
 
   return (
-    <div className="container">
-      <div className="row Addtodorow">
-        <div className="col-6">
+    <div classNameName="container">
+      <div classNameName="row Addtodorow">
+        <div classNameName="col-6">
           <input
             type="text"
             placeholder="Enter Todo Here"
@@ -29,13 +29,13 @@ export default function AddTodo({ onNewItem }) {
             onChange={handleNameChange}
           />
         </div>
-        <div className="col-4">
+        <div classNameName="col-4">
           <input type="date" value={dueDate} onChange={handleDateChange} />
         </div>
-        <div className="col-2">
+        <div classNameName="col-2">
           <button
             type="button"
-            className="btn btn-success Addbutton"
+            classNameName="btn btn-success Addbutton"
             onClick={handleAddButtonClicked}
           >
             Add

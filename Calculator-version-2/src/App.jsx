@@ -17,7 +17,7 @@ function App() {
   };
 
   return (
-    <div className={styles.calculator}>
+    <div classNameName={styles.calculator}>
       <Display displayValue={calval} />
       <Buttonscontainer onButtonClick={onButtonClick} />
     </div>

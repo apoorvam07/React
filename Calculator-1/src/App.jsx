@@ -3,7 +3,7 @@ import Buttonscontainer from "./Components/Buttonscontainer";
 import Display from "./Components/Display";
 function App() {
   return (
-    <div className={styles.calculator}>
+    <div classNameName={styles.calculator}>
       <Display />
       <Buttonscontainer />
     </div>

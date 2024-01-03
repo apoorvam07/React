@@ -4,7 +4,7 @@ import styles from "./TodoItems.module.css";
 
 function TodoItems({ todoItems, onDeleteClick }) {
   return (
-    <div className={styles.itemscontainer}>
+    <div classNameName={styles.itemscontainer}>
       {todoItems.map((item) => (
         <TodoItem
           todoName={item.name}
