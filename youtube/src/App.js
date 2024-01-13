@@ -1,7 +1,8 @@
 import React from "react";
+import { AppContext } from "./context/contextApi";
 
 const App = () => {
-  return <div>m</div>;
+  return <AppContext>m</AppContext>;
 };
 
 export default App;
